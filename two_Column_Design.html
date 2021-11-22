@@ -1,0 +1,42 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>two_Column_Design</title>
+</head>
+<style >
+	*{
+		box-sizing: border-box;
+	}
+	div{
+		background-color: #00ffff
+	}
+	p{
+		width: 50%;
+		border: 2px solid black;
+		float: left;
+		padding:20px;
+		/*margin-left: : 20px*/
+	}
+	#p1{
+		background-color:pink;
+	}
+	#p2{
+		background-color: blue;
+	}
+	section{
+		clear: left
+	}
+	
+</style>
+<body>
+	<h1>two_Column_Design</h1>
+	<div>
+		<p id="p1">The first value is the horizontal position and the second value is the vertical. The top left corner is 0% 0%. The right bottom corner is 100% 100%. If you only specify one value, the other value will be 50%. Default value is: 0% 0%</p>
+
+		<p id="p2">The first value is the horizontal position and the second value is the vertical. The top left corner is 0 0. Units can be pixels (0px 0px) or any other CSS units. If you only specify one value, the other value will be 50%. You can mix % and positions</p>
+		<section>Sets this property to its default value</section>
+	</div>
+
+</body>
+</html>
